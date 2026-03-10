@@ -3,33 +3,70 @@ Product listing with search and filter
 
 # Product Management System
 
+A simple full-stack application to manage products with search and filter functionality.
+
 ## Features
-- Product listing
+- View product list
 - Search products by name
-- Filter by category
+- Filter products by category
 - Add new product
 
 ## Tech Stack
-- Node.js
-- Express.js
-- MySQL
-- HTML
-- CSS
-- JavaScript
+- Backend: Node.js, Express.js
+- Database: MySQL
+- Frontend: HTML, CSS, JavaScript
 
-## Setup
+## Database Schema
 
-1 Install dependencies
+Table: products
+
+| Column | Type |
+|------|------|
+| id | INT (Primary Key) |
+| name | VARCHAR(255) |
+| price | DECIMAL |
+| category | VARCHAR(100) |
+| created_at | TIMESTAMP |
+
+## Setup Instructions
+
+1. Clone the repository
+
+git clone <your-github-link>
+
+2. Install dependencies
 
 npm install
 
-2 Run server
+3. Run the backend server
 
-node server.js
+node src/backend/server.js
 
-3 Open frontend
+4. Open frontend
 
-frontend/index.html
+src/frontend/index.html
+
+## API Endpoints
+
+GET /products  
+POST /products  
+GET /products?search=  
+GET /products?category=
+
+DataBase
+
+CREATE DATABASE productdb;
+
+USE productdb;
+
+CREATE TABLE products (
+id INT AUTO_INCREMENT PRIMARY KEY,
+name VARCHAR(255),
+price DECIMAL(10,2),
+category VARCHAR(100),
+created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
 
 database
 <img width="1365" height="654" alt="image" src="https://github.com/user-attachments/assets/e57a56b4-34fe-4e61-9331-ae8dbb1ad3b6" />
