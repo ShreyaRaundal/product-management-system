@@ -75,7 +75,15 @@ Add the product
 
 Get product
 <img width="1285" height="694" alt="image" src="https://github.com/user-attachments/assets/729df9b2-ecda-4f5a-af94-0e254a01caa5" />
+multiple products 
+<img width="1325" height="767" alt="image" src="https://github.com/user-attachments/assets/c512e9c5-a998-4f16-b0fd-f5c8a0cfa3cd" />
+
 
 After UI
 <img width="1350" height="625" alt="image" src="https://github.com/user-attachments/assets/10d0022c-b696-4e63-a2ad-82fe87391c78" />
+paggination
+<img width="1336" height="703" alt="image" src="https://github.com/user-attachments/assets/7433384d-f4be-4d03-9a9e-85dd293e5838" />
+
+
+
 
