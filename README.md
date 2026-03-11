@@ -4,8 +4,7 @@ Product listing with search and filter
 # Product Management System
 
 ## Overview
-This project is a Product Management System developed as part of a machine test.  
-It allows users to manage products with features like listing products, searching by name, filtering by category, adding new products, deleting products, and pagination.
+This project is a Product Management System developed.It allows users to manage products with features like listing products, searching by name, filtering by category, adding new products, deleting products, and pagination.
 
 The application follows a full-stack architecture with a Node.js backend, MySQL database, and a simple frontend UI built with HTML, CSS, and JavaScript.
 
