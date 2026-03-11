@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Product Management</h1>
+
+    <div class="search-section">
+
+        <input id="search" placeholder="Search product">
+
+        <select id="category">
+            <option value="">All</option>
+            <option value="Electronics">Electronics</option>
+            <option value="Clothes">Clothes</option>
+        </select>
+
+        <button onclick="loadProducts()">Search</button>
+
+    </div>
+
+    <table>
+
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Category</th>
+            <th>Action</th>
+        </tr>
+        </thead>
+
+        <tbody id="productList"></tbody>
+
+    </table>
+
+
+    <div class="pagination">
+
+        <button onclick="prevPage()">Previous</button>
+
+        <span id="pageNumber">1</span>
+
+        <button onclick="nextPage()">Next</button>
+
+    </div>
+
+
+    <div class="add-section">
+
+        <h2>Add Product</h2>
+
+        <input id="name" placeholder="Product Name">
+        <input id="price" placeholder="Price">
+        <input id="cat" placeholder="Category">
+
+        <button onclick="addProduct()">Add Product</button>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

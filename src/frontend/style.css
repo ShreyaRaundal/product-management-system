@@ -1,0 +1,84 @@
+body{
+    font-family: Arial, sans-serif;
+    background:#f4f6f9;
+    margin:0;
+    padding:0;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    margin-top:40px;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+h1{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.search-section{
+    display:flex;
+    gap:10px;
+    margin-bottom:20px;
+}
+
+input,select{
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    flex:1;
+}
+
+button{
+    padding:10px 20px;
+    background:#007bff;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0056b3;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+th,td{
+    padding:12px;
+    border-bottom:1px solid #ddd;
+    text-align:left;
+}
+
+th{
+    background:#007bff;
+    color:white;
+}
+
+tr:hover{
+    background:#f1f1f1;
+}
+
+.add-section{
+    margin-top:30px;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+.pagination button{
+    padding:8px 15px;
+    background:#007bff;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
