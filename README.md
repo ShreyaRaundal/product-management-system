@@ -256,8 +256,7 @@ DELETE /products/:id
 * Sorting functionality
 
 ---
-#images
-<img width="1365" height="713" alt="image" src="https://github.com/user-attachments/assets/cd354cfb-f667-4a52-965c-85e9bf3db7ae" />
+
 
 
 
